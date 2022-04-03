@@ -271,7 +271,7 @@ section {
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: url("/assets/img/pexels-negative-space-169573.jpg") top center;
   position: absolute;
   bottom: 0;
   top: 0;
