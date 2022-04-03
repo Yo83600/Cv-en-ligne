@@ -265,7 +265,7 @@ section {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(assets/img/pexels-negative-space-169573.jpg) top center;
+  background: url(/assets/img/pexels-negative-space-169573.jpg) top center;
   background-size: cover;
 }
 
@@ -315,19 +315,19 @@ section {
 }
 
 @media (min-width: 1025px) {
-  #hero .hero-container  {
-   padding-left: 750px;
-     
+  #hero .hero-container {
+    padding-left: 750px;
+
   }
-  
+
 }
 
 @media (max-width: 1025px) {
-  #hero .hero-container  {
-   padding-bottom: 400px;
-     
+  #hero .hero-container {
+    padding-bottom: 400px;
+
   }
-  
+
 }
 
 
@@ -341,7 +341,7 @@ section {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
-        
+
   }
 }
 
@@ -354,19 +354,24 @@ section {
 -------------------------------------------------------------------------*/
 .bi-chevron-double-down {
   font-size: 50px;
-    position: absolute;
-    bottom: 0px;
-     animation: bounce 0.7s ease infinite alternate;  
-    z-index: 10;
+  position: absolute;
+  bottom: 0px;
+  animation: bounce 0.7s ease infinite alternate;
+  z-index: 10;
 }
 
-.bi-chevron-double-down:hover{
-    color: white;
+.bi-chevron-double-down:hover {
+  color: white;
 }
 
-@keyframes bounce{
-     from {transform: translateY(0);}
-     to   {transform: translateY(-35px);}
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-35px);
+  }
 }
 
 
@@ -820,12 +825,14 @@ section {
 @media (max-width: 1051px) {
   .icon-box {
     padding-top: 5px !important;
-      
+
   }
-    .services .title {
-        font-size: 15px;
+
+  .services .title {
+    font-size: 15px;
+  }
 }
-}
+
 /*--------------------------------------------------------------
 # CSS de la partie "Mes services"
 --------------------------------------------------------------*/
@@ -944,7 +951,7 @@ section {
 .contact .info i {
   font-size: 30px;
   color: #149ddd;
-  
+
   width: 44px;
   height: 44px;
   background: #dff3fc;
@@ -956,7 +963,7 @@ section {
 }
 
 .contact .info h4 {
-  
+
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
